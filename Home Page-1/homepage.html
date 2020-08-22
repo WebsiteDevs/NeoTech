@@ -44,47 +44,16 @@
       
       Sed a enim a tellus interdum placerat. Duis faucibus nisi vel diam mollis ornare. Vivamus sit amet commodo ante. Sed enim diam, porttitor sed sollicitudin fringilla, malesuada id justo. Ut sollicitudin, libero non ultricies venenatis, est urna lacinia mi, eu feugiat arcu augue vel tellus. Duis et aliquam ligula. Curabitur lacus enim, eleifend vel facilisis et, bibendum a mauris. Integer tempus odio a nulla fermentum, a feugiat mi ullamcorper. Praesent aliquet volutpat orci, sit amet rhoncus nibh aliquet eget. Aenean vitae augue eget neque sollicitudin elementum. Donec at rutrum dui. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur ut mauris hendrerit, euismod enim eu, viverra turpis. Pellentesque euismod bibendum metus a blandit. Donec maximus, justo eu ultricies dictum, magna mauris vestibulum.</p>
   </section>
-  <script type="text/javascript">
-  window.addEventListener("scroll", function(){
-    var header = document.querySelector("header");
-    header.classList.toggle("sticky", window.scrollY > 0);
-  })
-
-  var text = document.getElementById('text');
-  var word = text.getElementsByTagName('span');
-
-  var i = 0;
-
-  function rotator(){
-    word[i].style.display = 'none';
-    i = (i + 1) % word.length;
-    word[i].style.display = 'initial';
-  }
-
-  setInterval(rotator, 800);
-  </script>
-
-<script type="text/javascript">
-		
-  function slideshow(){
-     var x = document.getElementById('check-class');
-     if(x.style.display === "none"){
-       x.style.display="block";
-     }else{
-       x.style.display="none";
-     }
-  }	
-      
-      </script>
-      
-      <script>
-    var preloader = document.getElementById('loading');  
+</script>
+        
+<script>
+var preloader = document.getElementById('loading');
 
 function myfunction() {
-   preloader.style.display ='none';
+preloader.style.display ='none';
 }    
-      
-      
-      </script>
+
+
+</script>
 </body>
 </html>
