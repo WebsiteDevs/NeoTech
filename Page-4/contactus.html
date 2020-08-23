@@ -75,21 +75,21 @@
           <form action="index.html" autocomplete="off">
             <h3 class="title">Contact us</h3>
             <div class="input-container">
-              <input type="text" name="name" class="input" />
+              <input type="text" name="name" id="inputName" class="input" />
               <label for="">Username</label>
               <span>Username</span>
             </div>
             <div class="input-container">
-              <input type="email" name="email" class="input" />
+              <input type="email" name="email" id="inputEmail" class="input" />
               <label for="">Email</label>
               <span>Email</span>
             </div>
             <div class="input-container">
-              <input type="tel" name="phone" class="input" />
+              <input type="tel" name="phone" id="inputPhone" class="input" />
               <label for="">Phone</label>
               <span>Phone</span>
             </div>
-            <div class="input-container textarea">
+            <div class="input-container textarea" id="inputMessage">
               <textarea name="message" class="input"></textarea>
               <label for="">Message</label>
               <span>Message</span>
@@ -104,6 +104,33 @@
         </div>
       </div>
     </div>
+
+<!--  
+<script>
+  $('#contact-form').submit(function(e) 
+  {
+    var name = document.getElementById('inputName');
+    email = document.getElementById('inputEmail');
+    phone = document.getElementById('inputPhone');
+    message = document.getElementById('inputMessage');
+
+    if (!name.value || !email.value || !message.value)
+    {
+      alertify.error ('Please check your entries')
+    }
+    else
+      {
+        $.ajax({
+        method: 'POST'
+        url: 'https://formspree.io/utkarshmishra72005@gmail.com'
+        data: $(this).serialize()
+        dataType: 'json'
+      })
+      }});
+      alertify.success ('Message sent')
+      e.preventDefault()
+       $(this).get(0).reset()
+</script>-->  
 
     <script type="text/javascript">
 
@@ -132,5 +159,6 @@ inputs.forEach((input) => {
   input.addEventListener("blur", blurFunc);
 });
 </script>
+
   </body>
 </html>
