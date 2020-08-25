@@ -5,7 +5,27 @@
   --header-height: 3rem;
   --font-semi: 600;
 }
+.skills__percentage a{
+  text-decoration: none;
+  color: black;
+}
+.skills__percentage   :hover{
+  color: grey;
+  cursor: pointer;
+}
 
+.gear{
+  text-decoration: none;
+  background: grey;
+  color: white ;
+  padding: 0.8rem 1.8rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+.gear:hover{
+  color: black;
+  background: white;
+}
 /*===== Colores =====*/
 :root{
   --first-color: #4070F4;
