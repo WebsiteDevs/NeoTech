@@ -1,6 +1,15 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 /*===== VARIABLES CSS =====*/
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('h.jpg');
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 :root{
   --header-height: 3rem;
   --font-semi: 600;
@@ -237,6 +246,7 @@ img{
   right: 0;
   bottom: 0;
   width: 295px;
+  margin-bottom: -10px;
 }
 
 /*BUTTONS*/
