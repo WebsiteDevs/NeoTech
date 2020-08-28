@@ -56,6 +56,24 @@ sr.reveal('.work__img',{interval: 200});
 /*SCROLL CONTACT*/
 sr.reveal('.contact__input',{interval: 200}); 
 
+/* preloader*/
+		
+function slideshow(){
+     var x = document.getElementById('check-class');
+     if(x.style.display === "none"){
+         x.style.display="block";
+     }else{
+         x.style.display="none";
+     }
+}	
+
+var preloader = document.getElementById('loading');  
+
+function myfunction() {
+preloader.style.display ='none';
+}    
+
+
 
 
 
