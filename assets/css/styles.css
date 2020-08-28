@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 /*===== VARIABLES CSS =====*/
 .main-header-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('https://drive.google.com/file/d/1pNyKzjOuzBgHAVwU9CrVayz5KnyWOafu/view?usp=sharing');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('ssets/img/neotechbanner.png');
   height: 50vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -262,7 +262,7 @@ img{
   right: 0;
   bottom: 0;
   width: 295px;
-  margin-bottom: -60px;
+  margin-bottom: -200px;
 }
 
 /*BUTTONS*/
