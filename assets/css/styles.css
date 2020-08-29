@@ -1,18 +1,6 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 /*===== VARIABLES CSS =====*/
-.hero-image{
-  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0, 0.2)), url("../img/neotechbanner.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 610px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-attachment: fixed;
-}
-
 #loading{
   position: fixed;
   width: 100%;
