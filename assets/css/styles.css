@@ -46,17 +46,6 @@
   color: black;
   background: white;
 }
-
-@media screen and (min-width: 768px){
-  :root{
-    --big-font-size: 3.5rem;
-    --h2-font-size: 2rem;
-    --normal-font-size: 1rem;
-  }
-}
-
-
-
 /*===== BASE =====*/
 *,::before,::after{
   box-sizing: border-box;
